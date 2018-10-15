@@ -21,6 +21,7 @@ public class Java41 {
         }
     return sumAve;}
 
+
     private static double averageSet(List <Integer>temp2) {
         double sum=0;
         for (int i = 0; i < temp2.size(); i++) {
@@ -29,8 +30,8 @@ public class Java41 {
         double average=sum/temp2.size();
     return average;}
 
-    private static TreeSet<Integer>  generateNumbers() {
 
+    private static TreeSet<Integer>  generateNumbers() {
         Random random= new Random();
         TreeSet<Integer>numbers=new TreeSet<>();
         do{
