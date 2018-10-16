@@ -35,8 +35,8 @@ public class Java41 {
         Random random= new Random();
         TreeSet<Integer>numbers=new TreeSet<>();
         do{
-            numbers.add(random.nextInt(20));
-        }while(numbers.size()!=10);
+            numbers.add(random.nextInt(1000));
+        }while(numbers.size()!=50);
         System.out.println(numbers.toString());
     return numbers;}
 }
